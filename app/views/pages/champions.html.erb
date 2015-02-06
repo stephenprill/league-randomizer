@@ -1,9 +1,6 @@
 <!-- <%= @champion_list %> -->
-
-
 <table>
   <% @champion_list[:data].each do |champions, data| %>
-
   <tr><td><%= champions %></td>
   <td><%= data[:id]%></td></tr>
   <% end %>
